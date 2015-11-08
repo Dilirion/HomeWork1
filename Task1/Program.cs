@@ -53,7 +53,7 @@ namespace Task1
                         Console.WriteLine("Вы решили выйти");
                         break;
                 }
-                    Console.Write("\n\n\t\t\tНажмите любую клавишу...");
+                    Console.Write("\n\t\t\tНажмите любую клавишу...");
                     Console.ReadLine();
                     Console.Clear();
                 }

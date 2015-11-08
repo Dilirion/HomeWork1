@@ -21,7 +21,7 @@ namespace Domain
         private int _health;
         public CatColor Color { set; get; }
 
-        //Вычисляю CurrentColor
+        //CurrentColor
         public string CurrentColor => (_health >= 5) ? Color.HealthyColor : Color.SickColor;
 
         public string Name
@@ -35,7 +35,7 @@ namespace Domain
                 }
             } 
         }
-        //Исправил Age
+        //Age
         public int Age => _age;
 
         public void Feed()
